@@ -11,7 +11,7 @@ class Main {
         mc = flash.Lib.current;
         mc.stage.scaleMode = StageScaleMode.NO_SCALE;
         mc.stage.addEventListener(Event.RESIZE, myResizeHandler);
-        videoplayer = new VideoPlayer("samples/movies/vertical.mov");
+        videoplayer = new VideoPlayer(flash.Lib.current.loaderInfo.parameters.movie_url);
         mc.addChild(videoplayer);
         this.myResizeHandler();
     }
