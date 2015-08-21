@@ -1,0 +1,1 @@
+Web Video Player is an open FLV web player written in haXe and available as swf download to be used on any website. It accepts both indivudual files or XSPF playlist files as input.
